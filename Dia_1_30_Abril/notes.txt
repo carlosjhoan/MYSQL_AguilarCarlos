@@ -1,0 +1,22 @@
+Este texto guarda todos los apuntes de la clase del 30 de Abril.
+
+Direccions IP 
+
+clase A: redes coorporativas
+clase B: Clases municipales
+Clase C: Domésticas
+172.16.101.127
+
+terminal: 
+- ssh p4student@172.16.101.127 (ENTER)
+- yes
+- password: p4student
+
+tres partes importantes de conexion a servidor
+- Quien
+- Donde
+- ***
+
+New Password: 1095822445
+
+Terminal: ls -l: Me lista completa la info
