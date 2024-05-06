@@ -42,7 +42,7 @@ CREATE TABLE asignatura(
 	cuatrimestre TINYINT(3) NOT NULL,
 	id_profesor  INT,
 	id_grado INT NOT NULL,
-	FOREIGN KEY (id_profesor) REFERENCES persona(id),
+	FOREIGN KEY (id_profesor) REFERENCES profesor(id_profesor),
 	FOREIGN KEY (id_grado) REFERENCES grado(id)
 );
 
