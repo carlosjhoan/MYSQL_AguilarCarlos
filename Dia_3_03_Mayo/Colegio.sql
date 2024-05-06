@@ -56,6 +56,7 @@ CREATE TABLE alumno_asignatura(
 	id_alumno INT NOT NULL,
 	id_asignatura INT NOT NULL,
 	id_curso_escolar INT NOT NULL,
+	PRIMARY KEY (id_alumno, id_asignatura, id_curso_escolar),
 	FOREIGN KEY (id_alumno) REFERENCES persona(id),
 	FOREIGN KEY (id_asignatura) REFERENCES asignatura(id),
 	FOREIGN KEY (id_curso_escolar) REFERENCES curso_escolar(id)
